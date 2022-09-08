@@ -1,6 +1,5 @@
 * {
     font-family: monaco;
-    background: rgb(70, 77, 84);
 }
 
 main {
@@ -29,45 +28,12 @@ li {
     font-family: monaco;
     text-align: center;
     border: 0.5px solid;
-    grid-template-rows: 1fr;
+    border-color: white;
 }
 
-#home {
-    color: white;
-    font-family: monaco;
+.left-bar {
     border: 0.5px solid;
-    grid-template-rows: 1fr;
-}
-
-#home-list {
-    border: 0.5px solid;
-}
-
-#menu {
-    border: 0.5px solid;
-    grid-template-rows: 1fr;
-}
-
-#menu-list {
-    border: 0.5px solid;
-}
-
-#groups {
-    border: 0.5px solid;
-    grid-template-rows: 1fr;
-}
-
-#groups-list {
-    border: 0.5px solid;
-    grid-template-rows: 1fr;
-}
-
-#shortcuts {
-    border: 0.5px solid;
-}
-
-#shortcuts-list {
-    border: 0.5px solid;
+    border-color: white;
 }
 
 #feed {
@@ -76,8 +42,14 @@ li {
     grid-template-rows: 40% 20% 40%;
 }
 
-#stories {
+.stories-parent {
     background: cornsilk;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.stories {
+    border: 2px solid white;
 }
 
 #update-status {
@@ -94,9 +66,12 @@ li {
 
 #sponsored {
     background: cornflowerblue;
-    grid-template-rows: 20% 40% 40%;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
 }
 
 #contacts {
     background: lightgoldenrodyellow;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
