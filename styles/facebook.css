@@ -17,10 +17,6 @@ header {
     height: 10%;
 }
 
-li {
-    border: 0.5px solid;
-}
-
 #left-sidebar {
     background: rgb(70, 77, 84);
     display: grid;
