@@ -54,10 +54,14 @@ li {
 
 #update-status {
     background: darkolivegreen;
+    border: 2px solid white;
+    text-align: center;
 }
 
 #news-feed {
     background: darkslateblue;
+    border: 2px solid white;
+    text-align: center;
 }
 #right-sidebar {
     background: cyan;
