@@ -1,0 +1,102 @@
+* {
+    font-family: monaco;
+    background: rgb(70, 77, 84);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+}
+
+#main {
+    height: 100vh;
+}
+
+header {
+    background: rosybrown;
+    font-family: monaco;
+    height: 10%;
+}
+
+li {
+    border: 0.5px solid;
+}
+
+#left-sidebar {
+    background: rgb(70, 77, 84);
+    display: grid;
+    color: white;
+    font-family: monaco;
+    text-align: center;
+    border: 0.5px solid;
+    grid-template-rows: 1fr;
+}
+
+#home {
+    color: white;
+    font-family: monaco;
+    border: 0.5px solid;
+    grid-template-rows: 1fr;
+}
+
+#home-list {
+    border: 0.5px solid;
+}
+
+#menu {
+    border: 0.5px solid;
+    grid-template-rows: 1fr;
+}
+
+#menu-list {
+    border: 0.5px solid;
+}
+
+#groups {
+    border: 0.5px solid;
+    grid-template-rows: 1fr;
+}
+
+#groups-list {
+    border: 0.5px solid;
+    grid-template-rows: 1fr;
+}
+
+#shortcuts {
+    border: 0.5px solid;
+}
+
+#shortcuts-list {
+    border: 0.5px solid;
+}
+
+#feed {
+    background: blue;
+    display: grid;
+    grid-template-rows: 40% 20% 40%;
+}
+
+#stories {
+    background: cornsilk;
+}
+
+#update-status {
+    background: darkolivegreen;
+}
+
+#news-feed {
+    background: darkslateblue;
+}
+#right-sidebar {
+    background: cyan;
+    display: grid;
+}
+
+#sponsored {
+    background: cornflowerblue;
+    grid-template-rows: 20% 40% 40%;
+}
+
+#contacts {
+    background: lightgoldenrodyellow;
+}
