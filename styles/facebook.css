@@ -64,14 +64,21 @@ li {
     display: grid;
 }
 
-#sponsored {
+.sponsored-parent {
     background: cornflowerblue;
     display: grid;
     grid-template-rows: 1fr 2fr 2fr;
 }
 
-#contacts {
+.sponsored {
+    border: 2px solid white;
+}
+.contacts-parent {
     background: lightgoldenrodyellow;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 1fr 1fr;
+}
+
+.contacts {
+    border: 2px solid white;
 }
